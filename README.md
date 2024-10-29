@@ -89,14 +89,25 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
   
 
 ## STM 32 CUBE PROGRAM :
-
+### DEVELOPED BY: HAREVASU S
+### REGISTER NO.:212223230069
+```
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+	if((GPIO_Pin == GPIO_PIN_0)){
+		HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_5);
+	}
+}
+```
 
 
 ## Output screen shots of proteus  :
  
- 
+ ![image](https://github.com/user-attachments/assets/49e11a8b-3329-45c6-bb10-9706ff04de14)
+
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
+ ![image](https://github.com/user-attachments/assets/e79ffe26-c999-4b46-9115-a80f39f4a85d)
+
  
 ## Result :
 Interfacing a push button and interrupt genrateion is simulated using proteus 
